@@ -15,7 +15,7 @@ import { NAVIGATION } from "@/lib/constants";
 
 export default function Header() {
   return (
-    <header className="px-4 py-4 fixed w-full flex items-center justify-center gap-2 bg-background shadow-sm">
+    <header className="px-4 py-4 fixed w-full flex items-center justify-center gap-2 bg-background shadow-sm z-10">
       <NavigationMenu>
         <NavigationMenuList>
           {NAVIGATION.map((link, index) => (
